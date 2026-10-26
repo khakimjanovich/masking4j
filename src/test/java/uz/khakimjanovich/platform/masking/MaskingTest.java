@@ -1,4 +1,4 @@
-package uz.heeypay.ecom.masking;
+package uz.khakimjanovich.platform.masking;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

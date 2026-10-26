@@ -1,4 +1,4 @@
-package uz.heeypay.ecom.masking;
+package uz.khakimjanovich.platform.masking;
 
 import java.net.URI;
 import java.net.URLDecoder;
