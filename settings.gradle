@@ -9,11 +9,11 @@ pluginManagement {
                 username = providers.gradleProperty('gpr.user').orElse(providers.environmentVariable('GH_PACKAGES_ACTOR')).getOrElse('')
                 password = providers.gradleProperty('gpr.key').orElse(providers.environmentVariable('GH_PACKAGES_TOKEN')).getOrElse('')
             }
-            content { includeGroupByRegex 'platform\\..*|uz\\.khakimjanovich\\.platform' }
+            content { includeGroupByRegex 'platform\\..*|uz\\.khakimjanovich(\\..+)?' }
         }
         gradlePluginPortal()
     }
 }
 plugins { id 'platform.settings' version '2.8.0-SNAPSHOT' }
 
-rootProject.name = 'masking' // the artifact: uz.khakimjanovich.platform:masking
+rootProject.name = 'masking4j' // the artifact: uz.khakimjanovich:masking4j
