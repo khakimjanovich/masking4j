@@ -1,4 +1,4 @@
-package uz.khakimjanovich.platform.masking;
+package uz.khakimjanovich.masking4j;
 
 import java.util.Collection;
 import java.util.Locale;

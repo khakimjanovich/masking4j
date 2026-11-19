@@ -1,12 +1,12 @@
-package uz.khakimjanovich.platform.masking;
+package uz.khakimjanovich.masking4j;
 
-import static uz.khakimjanovich.platform.masking.MaskingConstants.KEY_COLON;
-import static uz.khakimjanovich.platform.masking.MaskingConstants.KEY_EQUALS;
-import static uz.khakimjanovich.platform.masking.MaskingConstants.KEY_PATH;
-import static uz.khakimjanovich.platform.masking.MaskingConstants.KEY_SPACE;
-import static uz.khakimjanovich.platform.masking.MaskingConstants.MAX_LENGTH;
-import static uz.khakimjanovich.platform.masking.MaskingConstants.XML_ELEMENT;
-import static uz.khakimjanovich.platform.masking.MaskingConstants.XML_ITEM;
+import static uz.khakimjanovich.masking4j.MaskingConstants.KEY_COLON;
+import static uz.khakimjanovich.masking4j.MaskingConstants.KEY_EQUALS;
+import static uz.khakimjanovich.masking4j.MaskingConstants.KEY_PATH;
+import static uz.khakimjanovich.masking4j.MaskingConstants.KEY_SPACE;
+import static uz.khakimjanovich.masking4j.MaskingConstants.MAX_LENGTH;
+import static uz.khakimjanovich.masking4j.MaskingConstants.XML_ELEMENT;
+import static uz.khakimjanovich.masking4j.MaskingConstants.XML_ITEM;
 
 import java.net.URI;
 import java.net.URLDecoder;

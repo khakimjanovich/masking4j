@@ -1,4 +1,4 @@
-package uz.khakimjanovich.platform.masking;
+package uz.khakimjanovich.masking4j;
 
 import java.util.regex.Pattern;
 import lombok.experimental.UtilityClass;

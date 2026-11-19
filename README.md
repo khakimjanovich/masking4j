@@ -1,11 +1,11 @@
 # masking
 
 Used by observability (every log line, every client call) and error (its log line). The library
-knows only generic names; a service configures its logging masking via `platform.logging.masking.*` in YAML or Vault,
+knows only generic names; a service configures its logging masking via `observability4j.logging.masking.*` in YAML or Vault,
 and no app's field name is hardcoded here.
 
 ```groovy
-implementation libs.platform.masking
+implementation libs.masking4j
 ```
 
 Masks sensitive fields across JSON, XML, forms, URI query parameters, and plain text patterns (`key=value`, `key: value`, `key value`, `/key/value`).
