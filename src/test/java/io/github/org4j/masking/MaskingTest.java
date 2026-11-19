@@ -1,4 +1,4 @@
-package uz.khakimjanovich.masking4j;
+package io.github.org4j.masking;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
